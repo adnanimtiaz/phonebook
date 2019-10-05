@@ -1,0 +1,25 @@
+{
+  "name": "com.phonebook",
+  "version": "1.0.0",
+  "description": "This project is belongs to Addenda.tech for evaluation the candidate skills. Project contains phonebook APIs.",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon app.js",
+    "test": "mocha"
+  },
+  "author": "Adnan Imtiaz",
+  "license": "UNLICENSED",
+  "dependencies": {
+    "@hapi/joi": "^16.1.5",
+    "dotenv": "^8.1.0",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+     "mongoose": "^5.7.3",
+    "nodemon": "^1.19.3",
+    "saslprep": "^1.0.3"
+  },
+  "devDependencies": {  
+    "chai": "^4.2.0",
+    "mocha": "^6.2.1"  
+  }
+}
